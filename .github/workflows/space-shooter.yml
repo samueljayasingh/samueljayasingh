@@ -3,11 +3,14 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
- 
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - uses: czl9707/gh-space-shooter@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
