@@ -22,8 +22,8 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=378add)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=vercel&logoColor=c9d1d9)](https://YOUR_PORTFOLIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=378add)](https://linkedin.com/in/samueljayasingh)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=vercel&logoColor=c9d1d9)](https://samueljayasingh.in)
 [![Email](https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=d4537e)](mailto:samueljayasingh77@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=c9d1d9)](https://github.com/samueljayasingh)
 &nbsp;
