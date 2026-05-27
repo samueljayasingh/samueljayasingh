@@ -98,6 +98,18 @@ No activity tracked
 
 ---
 
+
+```
+> sudo ./space-shooter --invaders contributors
+```
+ 
+<div align="center">
+![Space Shooter](https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/output/github-space-shooter.svg)
+ 
+</div>
+---
+
+
 ```
 > fortune | cowsay
 ```
