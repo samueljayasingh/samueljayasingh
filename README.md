@@ -103,9 +103,7 @@ No activity tracked
 > sudo ./space-shooter --invaders contributors
 ```
  
-<div align="center">
-![Space Shooter](https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/main/game.gif) 
-</div>
+<p align="center"> <img src="https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/main/game.gif" alt="Space Shooter" /> </p>
 ---
 
 
