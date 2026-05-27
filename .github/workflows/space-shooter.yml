@@ -1,0 +1,14 @@
+name: Generate Space Shooter
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: czl9707/gh-space-shooter@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_user: samueljayasingh
