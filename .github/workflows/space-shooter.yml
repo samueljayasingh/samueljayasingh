@@ -1,43 +1,23 @@
-name: Generate Space Shooter
+name: Update Space Shooter Game
+
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  update-game:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 2  # This is crucial!
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: czl9707/gh-space-shooter@v2
         with:
-          python-version: '3.12'
-
-      - name: Install gh-space-shooter
-        run: pip install gh-space-shooter
-
-      - name: Generate GIF
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh-space-shooter samueljayasingh \
-            --github-token $GH_TOKEN \
-            --output-path gh-space-shooter.gif
-
-      - name: Commit and push to output branch
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git checkout --orphan output 2>/dev/null || git checkout output
-          git reset
-          git add gh-space-shooter.gif
-          git commit -m "Update space shooter GIF" || echo "Nothing to commit"
-          git push origin output --force
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'game.gif'
+          strategy: 'random'
