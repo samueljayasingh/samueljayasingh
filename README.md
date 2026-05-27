@@ -104,7 +104,7 @@ No activity tracked
 ```
  
 <p align="center"> <img src="https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/main/game.gif" alt="Space Shooter" /> </p>
----
+
 
 
 ```
