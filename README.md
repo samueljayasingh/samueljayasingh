@@ -104,8 +104,7 @@ No activity tracked
 ```
  
 <div align="center">
-![Space Shooter](https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/output/github-space-shooter.svg)
- 
+![Space Shooter](https://raw.githubusercontent.com/samueljayasingh/samueljayasingh/main/game.gif) 
 </div>
 ---
 
