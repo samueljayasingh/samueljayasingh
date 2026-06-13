@@ -91,11 +91,11 @@ class SamuelJayasingh:
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   8 hrs 32 mins         ████████▓░░░░░░░░░░░░░░░░   34.04 %
-Python       7 hrs 5 mins          ███████░░░░░░░░░░░░░░░░░░   28.23 %
-JavaScript   3 hrs 36 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.37 %
-JSON         2 hrs 27 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.79 %
-Other        1 hr 8 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+Python       8 hrs 46 mins         ████████░░░░░░░░░░░░░░░░░   32.42 %
+TypeScript   8 hrs 32 mins         ████████░░░░░░░░░░░░░░░░░   31.60 %
+JavaScript   3 hrs 36 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.34 %
+JSON         2 hrs 27 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.08 %
+Other        1 hr 8 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   04.22 %
 ```
 
 <!--END_SECTION:waka-->
