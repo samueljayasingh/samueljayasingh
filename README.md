@@ -39,7 +39,6 @@ class SamuelJayasingh:
     role       = "Junior Software Engineer – AI @ Spritle Software"
     focus      = ["agentic AI", "ml/dl/rl systems", "generative models", "MCP protocol", "RAG pipelines"]
     currently  = "building multi-agent systems & fine-tuning generative models"
-    education  = "B.Tech AI & Data Science · Rajalakshmi Institute of Technology"
     asks       = "how do we make LLMs actually useful in production?"
 ```
 
